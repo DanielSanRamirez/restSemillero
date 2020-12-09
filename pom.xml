@@ -4,7 +4,7 @@
 	<groupId>com.clearminds.dra</groupId>
 	<artifactId>rest</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>rest Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
@@ -16,6 +16,12 @@
 		</dependency>
 
 		<dependency>
+			<groupId>com.clearminds.dra</groupId>
+			<artifactId>middleware</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+		<dependency>
 			<groupId>javax.ws.rs</groupId>
 			<artifactId>javax.ws.rs-api</artifactId>
 			<version>2.1.1</version>
@@ -23,7 +29,7 @@
 
 		<dependency>
 			<groupId>org.glassfish.jersey.core</groupId>
-			<artifactId>jersey-server</artifactId>
+			<artifactId>jersey-client</artifactId>
 			<version>2.27</version>
 		</dependency>
 
@@ -44,6 +50,7 @@
 			<artifactId>jersey-media-json-jackson</artifactId>
 			<version>2.25</version>
 		</dependency>
+
 
 	</dependencies>
 	<build>
