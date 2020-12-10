@@ -9,7 +9,6 @@ import javax.ws.rs.core.MediaType;
 
 import com.clearminds.dra.dtos.Estudiante;
 import com.clearminds.dra.excepciones.BDDException;
-import com.clearminds.entidades.Persona;
 
 @Path("/estudiantes")
 public class RestEstudiantes {
